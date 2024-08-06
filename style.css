@@ -1,0 +1,628 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+html {
+    font-family: "Noto Sans", sans-serif;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-banner-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav .nav-bar {
+    height: 56px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    height: 100%;
+    width: 517px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#logo {
+    height: 24px;
+    width: 120px;
+    background-image: url(data:image/svg+xml,%3Csvg%20class%3D%22tds-icon%20tds-icon-logo-wordmark%20tds-site-logo-icon%22%20viewBox%3D%220%200%20342%2035%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M0%20.1a9.7%209.7%200%200%200%207%207h11l.5.1v27.6h6.8V7.3L26%207h11a9.8%209.8%200%200%200%207-7H0zm238.6%200h-6.8v34.8H263a9.7%209.7%200%200%200%206-6.8h-30.3V0zm-52.3%206.8c3.6-1%206.6-3.8%207.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6%2013.6%200%200%200-8.7%207h39.9v-21h-31.2v-7zm116.2%2028h6.7v-14h24.6v14h6.7v-21h-38zM85.3%207h26a9.6%209.6%200%200%200%207.1-7H78.3a9.6%209.6%200%200%200%207%207m0%2013.8h26a9.6%209.6%200%200%200%207.1-7H78.3a9.6%209.6%200%200%200%207%207m0%2014.1h26a9.6%209.6%200%200%200%207.1-7H78.3a9.6%209.6%200%200%200%207%207M308.5%207h26a9.6%209.6%200%200%200%207-7h-40a9.6%209.6%200%200%200%207%207%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E);
+background-repeat: no-repeat;
+position: absolute;
+left: 25px;
+
+}
+.nav-middle-links {
+    width: 501px;
+    height: 100%;
+}
+.nav-end-links {
+    width: 517px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-middle-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+
+    list-style-type: none;
+}
+
+.nav-end-links {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 35px;
+}
+.fa {
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.model-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 0px;
+}
+#model-name {
+    font-size: 56px;
+}
+#finance-rate {
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 9px;
+}
+#price {
+    font-size: 17px;
+}
+
+.order-buttons {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    position: relative;
+    top: 400px;
+}
+
+#order {
+    width: 264px;
+    height: 40px;
+    background-color: #3e6ae1;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: white;
+}
+#demo {
+    width: 264px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: rgb(130, 129, 128);
+}
+
+/* second banner */
+.main-banner-2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US-v2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.model-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 0px;
+}
+#model-name {
+    font-size: 56px;
+}
+#finance-rate {
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 9px;
+}
+#price {
+    font-size: 17px;
+}
+
+.order-buttons {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    position: relative;
+    top: 400px;
+}
+
+#order {
+    width: 264px;
+    height: 40px;
+    background-color: #3e6ae1;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: white;
+}
+#demo {
+    width: 264px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: rgb(130, 129, 128);
+}
+
+/* banner 3 */
+.main-banner-3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.model-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 0px;
+}
+#model-name {
+    font-size: 56px;
+}
+#finance-rate {
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 9px;
+}
+#price {
+    font-size: 17px;
+}
+
+.order-buttons {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    position: relative;
+    top: 400px;
+}
+
+#order {
+    width: 264px;
+    height: 40px;
+    background-color: #3e6ae1;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: white;
+}
+#demo {
+    width: 264px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: rgb(130, 129, 128);
+}
+/* banner 4 */
+.main-banner-4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-US.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.model-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 0px;
+}
+#model-name {
+    font-size: 56px;
+}
+#finance-rate {
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 9px;
+}
+#price {
+    font-size: 17px;
+}
+
+.order-buttons {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    position: relative;
+    top: 400px;
+}
+
+#order {
+    width: 264px;
+    height: 40px;
+    background-color: #3e6ae1;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: white;
+}
+#demo {
+    width: 264px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: rgb(130, 129, 128);
+}
+/* banner 5 */
+.main-banner-5 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.model-name-cyber-truck {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 0px;
+}
+
+#model-name {
+    font-size: 56px;
+}
+#finance-rate {
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 9px;
+}
+#price {
+    font-size: 17px;
+}
+
+.order-buttons-cyber-truck {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    position: relative;
+    top: 620px;
+}
+
+#order-cyber-truck {
+    width: 264px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: white;
+}
+#demo-cyber-truck {
+    width: 264px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: rgb(186, 186, 186);
+}
+/* banner 6 */
+.main-banner-6 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.model-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 0px;
+}
+#model-name {
+    font-size: 56px;
+}
+#finance-rate {
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 9px;
+}
+#price {
+    font-size: 17px;
+}
+
+.order-buttons-solar {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    position: relative;
+    top: 500px;
+}
+
+#order {
+    width: 264px;
+    height: 40px;
+    background-color: #3e6ae1;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: white;
+}
+#demo {
+    width: 264px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: rgb(130, 129, 128);
+}
+/* banner 7 */
+
+.main-banner-7 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarRoof-Desktop-US.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.model-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 0px;
+}
+#model-name {
+    font-size: 56px;
+}
+#finance-rate-roof {
+    font-size: 28px;
+    /* text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 9px; */
+}
+#price {
+    font-size: 17px;
+}
+
+.order-buttons-solar {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    position: relative;
+    top: 500px;
+}
+
+#order {
+    width: 264px;
+    height: 40px;
+    background-color: #3e6ae1;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: white;
+}
+#demo {
+    width: 264px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: rgb(130, 129, 128);
+}
+
+/* banner8 */
+.main-banner-8 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarRoof-Desktop-US.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.model-name-power-wall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 0px;
+    position: relative;
+    top: 50px;
+}
+#model-name {
+    font-size: 56px;
+}
+#finance-rate- {
+    font-size: 28px;
+    /* text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 9px; */
+}
+#price {
+    font-size: 17px;
+}
+
+.order-buttons-solar {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    position: relative;
+    top: 500px;
+}
+
+#order {
+    width: 264px;
+    height: 40px;
+    background-color: #3e6ae1;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: white;
+}
+#demo {
+    width: 264px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 3.5px;
+    font-weight: bold;
+    color: rgb(130, 129, 128);
+}
+
+/* footer */
+.footer {
+    height: 470px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-main {
+    width: 700px;
+    height: 462px;
+    background-color: black;
+}
+.footer-notes {
+    width: 100%;
+    height: 25%;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+.copy-right {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.copy-right-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    font-size: 12px;
+    gap: 10px;
+}
